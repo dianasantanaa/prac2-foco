@@ -1,0 +1,46 @@
+<!doctype html><!--informa al navegdor que version de HTML se ocupa-->
+<html lang="en">><!--se utiliza para comenzar a estructurar y el idioma-->
+    <head><!--información general acerca del documento, incluyendo su título y
+        enlaces a scripts y hojas de estilos-->
+        <title>Title</title>
+        <!--responsable de que se muestre el contenido correctamente y con caracteres-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- link de Bootstrap  y CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head><!--se cierra la parte de la informacion general-->
+    <body> <!--se escribe el contenido que ira dentro de la pagina web-->
+        
+        <div class="container" ><!--contenedor del codigo completo-->
+            <div class="row"><!--creamos el contenedor del primer titulo-->
+                <div class="col"><!--creamos el segundo contenedor el cual ayudara a la posicion-->
+                    <!--agregamos un titulo, colocamos el estilo que tendra-->
+                    <h2 >Enciende o apaga c:</h2>
+                </div><!--terminamos con la posicion-->
+            </div><!--cerramos la clase-->
+                <!-- comenzamos con las imagenes añadidas  -->
+                <div class="row">
+                    <div class="col-sm-2"> <!--damos la posicion en la que lo queremos-->
+                        <!--colocamos la funcion la cual se la asignaremos a un boton haci3endo que cambie la imagen a encendido-->
+                        <span class="btn btn-primary" onclick="document.getElementById('foto').src='img/pic_bulbon.gif'">Encender</span>
+                    </div><!--terminamos la clase de la posicion de este-->
+                    <div class="col-sm-8"style="text-align: center;"><!--colocamos la segunfda posicion en la que estara la imagen-->
+                        <img src="img/pic_bulbon.gif" alt="" id="foto" width="400px" height="500px" ><!--damos estilo a la imagen-->
+                    </div><!--terminamos la posicion-->
+                    <div class="col-sm-2"><!--damos la segunda posicion al boton de apagado-->
+                        <!--colocamos la funcion al boton para que este muestre cuando el foco se apague-->
+                        <span class="btn btn-primary" onclick="document.getElementById('foto').src='img/pic_bulboff.gif'">Apagar</span>
+                    </div><!--terminamos la posicion-->
+                </div><!--terminamos la clase de las asignaciones-->
+            </div><!--se termina toda la estructura-->
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body><!--se termina lo que ira dentro de la pagina web-->
+
+    </html><!--fin de la estructura-->

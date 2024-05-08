@@ -1,0 +1,12 @@
+ /*agregamos un color de fondo*/
+body{
+    background-color:aliceblue ;
+}
+/*agregamos el estilo del texto agregado*/
+ h2{
+    color: black;/*agregamos color al titulo*/
+    text-align: center;/*centramos el texto*/
+    /*agregamos un tipo de letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
